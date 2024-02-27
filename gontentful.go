@@ -23,6 +23,7 @@ const (
 	pathAssets              = pathSpaces + pathEnvironments + "/assets"
 	pathAssetsProcess       = pathAssets + "/%s/files/%s/process"
 	pathAssetsPublished     = pathAssets + "/%s/published"
+	pathAssetsEntry         = pathAssets + "/%s"
 	pathUploads             = pathSpaces + "/uploads"
 	pathContentTypes        = pathSpaces + pathEnvironments + "/content_types"
 	pathContentType         = pathContentTypes + "/%s"

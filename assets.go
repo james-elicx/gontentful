@@ -36,3 +36,9 @@ func (s *AssetsService) Publish(id string, version string) ([]byte, error) {
 	s.client.headers[headerContentfulVersion] = version
 	return s.client.put(path, nil)
 }
+
+
+func (s *AssetsService) GetSingle(id string) ([]byte, error) {
+	path := fmt.Sprintf(pathAssetsEntry, s.client.Options.SpaceID, s.client.Options.EnvironmentID, id)
+	return s.client.getCMA(path, nil)
+}
