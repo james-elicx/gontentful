@@ -7,7 +7,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/moonwalker/gontentful/schema"
+	"github.com/james-elicx/gontentful/schema"
 )
 
 type PGGames struct {

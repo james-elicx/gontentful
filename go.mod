@@ -1,4 +1,4 @@
-module github.com/moonwalker/gontentful
+module github.com/james-elicx/gontentful
 
 go 1.20
 

@@ -7,7 +7,7 @@ Contentful client library for Go with a command line interface for schema export
 ### Install
 
 ```sh
-$ go get -u github.com/moonwalker/gontentful
+$ go get -u github.com/james-elicx/gontentful
 ```
 
 ### Usage
@@ -16,7 +16,7 @@ Create client:
 
 ```sh
 import (
-	"github.com/moonwalker/gontentful"
+	"github.com/james-elicx/gontentful"
 )
 
 client := gontentful.NewClient(&gontentful.ClientOptions{
@@ -41,7 +41,7 @@ entry, err := client.Entries.GetSingle(<entryid>)
 ### Install
 
 ```sh
-$ go get -u github.com/moonwalker/gontentful/cmd/gfl
+$ go get -u github.com/james-elicx/gontentful/cmd/gfl
 ```
 
 ### Usage

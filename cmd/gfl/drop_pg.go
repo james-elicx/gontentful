@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/moonwalker/gontentful"
+	"github.com/james-elicx/gontentful"
 )
 
 func init() {
