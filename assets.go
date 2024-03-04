@@ -51,8 +51,6 @@ func (s *AssetsService) GetEntries(query url.Values) (*Entries, error) {
 		return nil, err
 	}
 
-	fmt.Println(string(data))
-
 	res := &Entries{}
 	err = json.Unmarshal(data, &res)
 	if err != nil {
